@@ -701,5 +701,5 @@ if __name__ == "__main__":
     LLAVA.set_args(args)
 
     demo = build_demo()
-    demo.queue(concurrency_count=1, api_open=False)
+    demo.queue(concurrency_count=1, api_open=True)
     demo.launch()
